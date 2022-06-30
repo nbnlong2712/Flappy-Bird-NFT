@@ -5,8 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class ControlScene : MonoBehaviour
 {
-   public void RepeatLevel()
+   public void RepeatLeveForBlue()
     {
         SceneManager.LoadScene(2);
+    }
+
+    public void RepeatLeveForAmarillo()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene(1);
     }
 }
